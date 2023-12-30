@@ -1,0 +1,10 @@
+# pack-refs with: peeled fully-peeled sorted 
+a745596148ce8bddbcfe0319f893ad8e28ec6526 refs/remotes/origin/dependabot/npm_and_yarn/ch5/ebuy/decode-uri-component-0.2.2
+c68a17aff9b743f218e5e2437aa4ca8d2ea2dd55 refs/remotes/origin/dependabot/npm_and_yarn/ch5/ebuy/json5-1.0.2
+2089ec7eeaaced6a21ea5e9767d7b2f982ec0f7c refs/remotes/origin/dependabot/npm_and_yarn/ch5/ebuy/loader-utils-and-nrwl/react-2.0.4
+1e2a1edc6458bd3210238b47f372dd5149f4295e refs/remotes/origin/dependabot/npm_and_yarn/ch5/ebuy/webpack-5.76.1
+cfc170932a7098e2e8542bcec20182ee3269ec6b refs/remotes/origin/dependabot/npm_and_yarn/ch7/ebuy/decode-uri-component-0.2.2
+b8faa22cfdc4522ce5bd66a075bc010a26f8e53e refs/remotes/origin/dependabot/npm_and_yarn/ch7/ebuy/json5-1.0.2
+08ca9914d54ba88e35d34d4b2d0ddfe2546254d9 refs/remotes/origin/dependabot/npm_and_yarn/ch7/ebuy/loader-utils-and-nrwl/react-2.0.4
+92c950a37d78f4be76cf8dd56a0c851734d4d381 refs/remotes/origin/dependabot/npm_and_yarn/ch7/ebuy/webpack-5.76.1
+636a249f3adb899bc9430418cb1396db610b9324 refs/remotes/origin/main
