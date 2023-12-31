@@ -25,13 +25,7 @@ export const PRODUCT_LIST_MOCKS: Array<productListItem> = [
     title: 'Bananas',
     image: '/assets/bananas.jpg',
     price: 0.7,
-  },
-  {
-    id: '4',
-    title: 'Grapes',
-    image: '/assets/bananas.jpg',
-    price: 0.9,
-  },
+  }
 ];
 
 export default PRODUCT_LIST_MOCKS;
