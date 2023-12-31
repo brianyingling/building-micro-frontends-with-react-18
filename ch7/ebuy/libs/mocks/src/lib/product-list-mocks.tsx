@@ -27,8 +27,8 @@ export const PRODUCT_LIST_MOCKS: Array<productListItem> = [
     price: 0.7,
   },
   {
-    id: '5',
-    title: 'grapes',
+    id: '4',
+    title: 'Grapes',
     image: '/assets/bananas.jpg',
     price: 0.7,
   }
