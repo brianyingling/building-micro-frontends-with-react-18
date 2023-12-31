@@ -29,7 +29,7 @@ export const PRODUCT_LIST_MOCKS: Array<productListItem> = [
   {
     id: '4',
     title: 'Grapes',
-    image: '/assets/bananas.jpg',
+    image: '/assets/grapes.jpg',
     price: 0.7,
   }
 ];
