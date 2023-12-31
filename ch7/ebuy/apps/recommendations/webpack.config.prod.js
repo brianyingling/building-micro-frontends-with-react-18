@@ -25,7 +25,11 @@ const prodConfig = {
    *   ['app2', '//example.com/path/to/app2/remoteEntry.js'],
    * ]
    */
-  remotes: [['store', 'https://ebuy-store1.web.app/']],
+  remotes: [
+    ['catalog', 'https://ebuy-catalog-1eba5.web.app/'],
+    ['checkout', 'https://ebuy-checkout-d04e1.web.app/'],
+    ['store', 'https://ebuy-datastore-fa86a.web.app/'],
+  ],
 };
 
 module.exports = withModuleFederation(prodConfig);

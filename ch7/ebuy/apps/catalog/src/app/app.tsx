@@ -9,7 +9,7 @@ const Recommendations = React.lazy(() => import('recommendations/Module'));
 export function App() {
   return (
     <Container style={{ marginTop: '5rem' }}>
-      <Text size="huge">Catalog App</Text>
+      <Text size="huge">Catalog</Text>
       <ProductList />
 
       <Recommendations />

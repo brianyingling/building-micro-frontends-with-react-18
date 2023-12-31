@@ -26,9 +26,9 @@ const prodConfig = {
    * ]
    */
   remotes: [
-    ['catalog', 'https://ebuy-catalog1.web.app/'],
-    ['checkout', 'https://ebuy-checkout1.web.app/'],
-    ['store', 'https://ebuy-store1.web.app/'],
+    ['catalog', 'https://ebuy-catalog-1eba5.web.app/'],
+    ['checkout', `https://ebuy-checkout-d04e1.web.app/`],
+    ['store', 'https://ebuy-datastore-fa86a.web.app/'],
   ],
 };
 

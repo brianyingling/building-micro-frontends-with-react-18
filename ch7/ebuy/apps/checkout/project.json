@@ -84,6 +84,15 @@
         "buildTarget": "checkout:build",
         "port": 4202
       }
+    },
+    "deploy": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "firebase deploy --only hosting:checkout"
+        ],
+        "parallel": true
+      }
     }
   },
   "tags": []

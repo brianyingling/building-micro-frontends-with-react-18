@@ -25,7 +25,12 @@ const prodConfig = {
    *   ['app2', '//example.com/path/to/app2/remoteEntry.js'],
    * ]
    */
-  remotes: [['recommendations', 'https://ebuy-recommendations1.web.app/']],
+  remotes: [
+    ['catalog', `https://ebuy-catalog-1eba5.web.app/remoteEntry.js?${Date.now()}`],
+    ['checkout', `https://ebuy-checkout-d04e1.web.app/remoteEntry.js?${Date.now()}`],
+    ['store', 'https://ebuy-datastore-fa86a.web.app/'],
+    ['recommendations', 'https://ebuy-recommendations-1f7b3.web.app/']
+  ],
 };
 
 module.exports = withModuleFederation(prodConfig);

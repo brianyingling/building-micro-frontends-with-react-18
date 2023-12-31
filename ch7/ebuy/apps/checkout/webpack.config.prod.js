@@ -3,6 +3,7 @@
 const { withModuleFederation } = require('@nrwl/react/module-federation');
 const baseConfig = require('./module-federation.config');
 
+console.log('date now:', Date.now());
 /**
  * @type {import('@nrwl/react/module-federation').ModuleFederationConfig}
  **/
@@ -26,9 +27,9 @@ const prodConfig = {
    * ]
    */
   remotes: [
-    ['catalog', 'https://ebuy-catalog.web.app/'],
-    ['checkout', 'https:////ebuy-checkout.web.app/'],
-    ['store', 'https://ebuy-datastore.web.app/'],
+    ['catalog', `https://ebuy-catalog-1eba5.web.app/remoteEntry.js?d=${Date.now()}`],
+    ['checkout', `https://ebuy-checkout-d04e1.web.app/remoteEntry.js?d=${Date.now()}`],
+    ['store', 'https://ebuy-datastore-fa86a.web.app/'],
   ],
 };
 

@@ -84,6 +84,15 @@
         "buildTarget": "catalog:build",
         "port": 4201
       }
+    },
+    "deploy": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "firebase deploy --only hosting:catalog"
+        ],
+        "parallel": true
+      }
     }
   },
   "tags": []

@@ -1,0 +1,27 @@
+{
+  "projects": {
+    "default": "ebuy-20fb3"
+  },
+  "targets": {
+    "ebuy-20fb3": {
+      "hosting": {
+        "app-shell": [
+          "ebuy-20fb3"
+        ],
+        "catalog": [
+          "ebuy-catalog-1eba5"
+        ],
+        "checkout": [
+          "ebuy-checkout-d04e1"
+        ],
+        "recommendations": [
+          "ebuy-recommendations-1f7b3"
+        ],
+        "store": [
+          "ebuy-datastore-fa86a"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
